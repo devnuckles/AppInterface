@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+}
+
+a,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.header {
+    background: #0d97df;
+    width: 100%;
+}
+
+
+.logo a {
+    text-decoration: none;
+    padding: 20px 0;
+    color: #000;
+    font-size: 35px;
+
+
+}
+
+.logo a svg {
+    transition: all linear .4s;
+}
+
+.logo a:hover svg {
+    color: #fff;
+}
+
+.bg-light {
+    background-color: #0d97df !important;
+}
+
+.navbar-nav {
+    padding: 19px 0;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000 !important;
+    font-size: 20px;
+    font-family: "Poppins";
+    letter-spacing: 0;
+    margin: 0 10px;
+    transition: all linear .4s;
+}
+
+.navbar-light .navbar-nav .nav-item:hover .nav-link {
+    color: #fff !important;
+}
+
+/* que-part Start  */
+.que-part {
+    background: #F9F9F9;
+}
+
+.que-left {
+    padding: 20px 0px;
+    margin: 0;
+    text-transform: capitalize;
+    float: left;
+
+
+}
+
+.que-left .que {
+    position: relative;
+
+}
+
+.que-left .que a {
+    font-family: "Poppins";
+    color: #000;
+    font-weight: 500;
+    transition: all linear .4s;
+}
+
+.que-left .que:hover a {
+    color: #0d97df;
+}
+
+.que-left .que::before {
+    content: "";
+    position: absolute;
+    height: 25px;
+    width: 3px;
+    background: #0d97df;
+    top: 20;
+    left: 70px;
+}
+
+.que-left .current a {
+    padding: 0 15px;
+    color: #000;
+    font-family: "Poppins";
+    font-weight: 500;
+    transition: all linear .4s;
+
+}
+
+.que-left .current:hover a {
+    color: #0d97df;
+}
+
+
+.que-right {
+    text-align: right;
+    padding: 20px 0px;
+}
+
+.que-right ul {
+    margin: 0;
+}
+
+.que-right ul li {
+    display: inline-block;
+    margin: 0 5px;
+
+}
+
+.que-right ul li:hover a {
+    border: 2px solid #0d97df;
+}
+
+.que-right ul li a {
+    background: #fff;
+    color: #0d97df;
+    padding: 5px 10px;
+    text-align: center;
+    border: 2px solid #fff;
+    -webkit-box-shadow: 8px 7px 18px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px 7px 18px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 8px 7px 18px -5px rgba(0, 0, 0, 0.75);
+    transition: all linear .4s;
+}
+
+/* banner part start  */
+
+.banner {
+    position: relative;
+    padding: 170px 0;
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(13, 151, 223, .5);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.banner-left {
+    float: left;
+    font-size: 35px;
+    letter-spacing: 0px;
+    font-family: "Poppins";
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: left;
+    text-transform: capitalize;
+    margin: 24px 0;
+
+}
+
+.banner-right {
+
+    margin: 24px 0;
+    font-family: "Poppins";
+    font-size: 30px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: right;
+    text-transform: capitalize;
+}
+
+/* appointment part start  */
+.appointment {
+    background: #F9F9F9;
+}
+
+.appointment .appointment-card {
+    background: #fff;
+    padding: 20px;
+    margin: 15px 40px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 8px 7px 18px -5px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 8px 7px 18px -5px rgba(0, 0, 0, 0.75);
+    box-shadow: 8px 7px 18px -5px rgba(0, 0, 0, 0.75);
+}
+
+.appointment-head h2 {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #131313;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.appointment-head .calender a {
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    color: #000;
+    font-family: "Poppins";
+    font-weight: 500;
+    padding: 0 30px;
+    transition: all linear .4s;
+}
+
+.appointment-head .calender:hover a {
+    color: #0d97df;
+}
+
+.appointment-body {
+    background: url(../images/ticket.jpg);
+    background-size: 230px 260px;
+    background-repeat: no-repeat;
+    background-position: -15px 0;
+    padding: 80px 0;
+}
+
+.appointment-body .body-content {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+    letter-spacing: 0px;
+    line-height: 18px;
+    color: #131313;
+    font-family: "Poppins";
+    font-weight: 600;
+    position: relative;
+}
+
+.appointment-body .body-content span {
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.message-icon {
+    font-size: 50px;
+    color: #0d97df;
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+}
+
+.appointment-footer {
+    padding: 30px 0 0 0;
+}
+
+.appointment-footer ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.appointment-footer ul li {
+    display: inline-block;
+
+}
+
+.appointment-footer ul li:hover a {
+    background: #0d97df;
+    color: #fff;
+}
+
+.appointment-footer ul li a {
+    border: 2px solid #0d97df;
+    padding: 5px 7px;
+    font-size: 16px;
+    color: #0d97df;
+    transition: all linear .4s;
+}
+
+
+/* footer part start */
+
+.footer {
+    background: #fff;
+    margin: 40px 0 0 0;
+}
+
+.footer-menu {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-menu ul li {
+    display: inline;
+
+}
+
+.footer-menu ul li a {
+    text-align: center;
+    padding: 20px 40px;
+    background: #fff;
+    color: #0d97df;
+    letter-spacing: 0px;
+    font-weight: 500;
+    transition: all linear .4s;
+}
+
+.footer-menu ul li:hover a {
+    background: #0d97df;
+    color: #fff;
+}

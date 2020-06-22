@@ -1,0 +1,184 @@
+@media (max-width:575px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-toggle {
+        border: 0;
+    }
+
+    .que-part {
+        font-size: 12px;
+    }
+
+    .que-left .que::before {
+        left: 55px;
+    }
+
+    .banner {
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 74px 0;
+    }
+
+    .banner-left {
+        font-size: 13px;
+    }
+
+    .banner-right {
+        font-size: 13px;
+    }
+
+    .appointment-head h2 {
+        font-size: 11px;
+    }
+
+    .message-icon {
+        font-size: 50px;
+    }
+
+    .appointment-footer ul li a {
+        font-size: 10px;
+    }
+
+    .appointment-body .body-content {
+        font-size: 10px;
+    }
+
+    .footer-menu ul li a {
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+
+
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-toggle {
+        border: 0;
+    }
+
+    .que-part {
+        font-size: 12px;
+    }
+
+    .que-left .que::before {
+        left: 55px;
+    }
+
+    .banner {
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 74px 0;
+    }
+
+    .banner-left {
+        font-size: 13px;
+    }
+
+    .banner-right {
+        font-size: 13px;
+    }
+
+    .appointment-head h2 {
+        font-size: 20px;
+    }
+
+    .appointment-head .calender a {
+        font-size: 15px;
+    }
+
+    .message-icon {
+        font-size: 100px;
+    }
+
+    .appointment-footer ul li a {
+        font-size: 20px;
+    }
+
+    .appointment-body .body-content {
+        font-size: 10px;
+        margin: 20px 235px 0 0;
+    }
+
+    .appointment-footer ul {
+        width: 67%;
+        margin: 0 auto;
+    }
+
+    .footer-menu ul li a {
+        padding: 15px 25px;
+        font-size: 15px;
+    }
+
+
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-light .navbar-toggle {
+        border: 0;
+    }
+
+    .que-part {
+        font-size: 16px;
+    }
+
+    .que-left .que::before {
+        left: 70px;
+    }
+
+    .banner {
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 74px 0;
+    }
+
+    .banner-left {
+        font-size: 18px;
+    }
+
+    .banner-right {
+        font-size: 18px;
+    }
+
+    .appointment-head h2 {
+        font-size: 20px;
+    }
+
+    .appointment-head .calender a {
+        font-size: 18px;
+    }
+
+    .message-icon {
+        font-size: 100px;
+    }
+
+    .appointment-footer ul li a {
+        font-size: 20px;
+    }
+
+    .appointment-body .body-content {
+        font-size: 10px;
+        margin: 20px 235px 0 0;
+    }
+
+    .appointment-footer ul {
+        width: 48%;
+        margin: 0 auto;
+    }
+
+    .footer-menu ul li a {
+        padding: 20px 40px font-size: 15px;
+    }
+
+
+}
